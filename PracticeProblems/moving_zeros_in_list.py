@@ -19,12 +19,13 @@ def main():
     for i in range(100000):
         test.append(random.randrange(0, stop=50))
 
-    print(test)
+    # print(test)
     # start = float(time.time())
     move_zeros(test)
+    move_zeros(in_list)
     # end = float(time.time())
 
-    print(test)
+    # print(test)
     # print('process took:', '%0.8f' % (end-start))
 
 
